@@ -47,12 +47,12 @@
       name: confluent.tools
     tags:
       - post-install
-  - import_role:
-      name: landoop.topics-ui
-  - import_role:
-      name: landoop.connect-ui
-  - import_role:
-      name: landoop.schema-registry-ui
+  # - import_role:
+  #     name: landoop.topics-ui
+  # - import_role:
+  #     name: landoop.connect-ui
+  # - import_role:
+  #     name: landoop.schema-registry-ui
 
 - hosts: broker
   tasks:
